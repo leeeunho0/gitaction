@@ -10,8 +10,6 @@ jobs:
   helloprint:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello!"
-      - run: whoami
-      - run: pwd
+      - run: echo "내 코드 있니?"
+      - run: ls
 
-# 한마디로 - 깃허브야, 컴퓨터 하나 빌려서 운영체제는 리눅스하고 그안에 명령어 실행해줘!
